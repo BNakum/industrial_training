@@ -55,7 +55,7 @@ copyright = u'2017, ROS-Industrial'
 # Subversioning Settings
 scv_show_banner = True
 scv_banner_main_ref = 'kinetic-devel'
-scv_whitelist_branches = ('kinetic-devel')
+scv_whitelist_branches = ('kinetic', 'kinetic-devel')
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -109,7 +109,8 @@ html_context = {
     "display_github": True,
     "github_user": "ros-industrial",
     "github_repo": "industrial_training",
-    "github_version": "kinetic-devel/gh_pages/",
+    "github_version": "kinetic-devel",
+    "github_folder": "gh_pages/",
     "conf_py_path": "",
     "source_suffix": source_suffix,
     "css_files": ['_static/override.css'],
